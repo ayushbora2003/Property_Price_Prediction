@@ -69,11 +69,11 @@ property-price-prediction/
 #Results Comparison
 
 📈 Results
-    - Model	RMSE	R² Score
+| Model                          | R² Score  | Error  | Performance |
+| ------------------------------ | --------- | ------ | ----------- |
+| **Multiple Linear Regression** | **0.635** | Lower  | ✅ Better    |
+| Simple Linear Regression       | 0.459     | Higher | ❌ Worse     |
 
-    - Simple Linear Regression		
-
-    - Multiple Linear Regression
 
 		
 📚 What I Learned
