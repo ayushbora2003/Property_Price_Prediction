@@ -21,25 +21,26 @@ pip install -r requirements.txt
 📊 Dataset
 California Housing Dataset from 1990 with features:
 
-median_income: Median income in block group
+    - median_income: Median income in block group
 
-housing_median_age: Median age of houses
+    - housing_median_age: Median age of houses
 
-total_rooms: Total number of rooms
+    - total_rooms: Total number of rooms
 
-total_bedrooms: Total number of bedrooms
+    - total_bedrooms: Total number of bedrooms
 
-population: Total population in block group
+    - population: Total population in block group
 
-households: Total number of households
+    - households: Total number of households
 
-latitude: Latitude coordinate
+    - latitude: Latitude coordinate
 
-longitude: Longitude coordinate
+    - longitude: Longitude coordinate
 
-ocean_proximity: Distance from ocean (categorical)
+    - ocean_proximity: Distance from ocean (categorical)
 
-Target Variable: median_house_value
+    - Target Variable: median_house_value
+
 
 📁 Project Structure
 text
@@ -52,36 +53,40 @@ property-price-prediction/
 └── data/
     └── housing.csv
 
- Steps in Notebook
-Data Loading & Exploration
+#Steps in Notebook
+   - Data Loading & Exploration
 
-Data Cleaning (handle missing values)
+   - Data Cleaning (handle missing values)
 
-Data Visualization (understand patterns)
+   - Data Visualization (understand patterns)
 
-Simple Linear Regression (one feature)
+   - Simple Linear Regression (one feature)
 
-Multiple Linear Regression (all features)
+   - Multiple Linear Regression (all features)
 
-Model Evaluation (MSE, RMSE, R²)
+   - Model Evaluation (MSE, RMSE, R²)
 
-Results Comparison
+#Results Comparison
 
 📈 Results
-Model	RMSE	R² Score
-Simple Linear Regression		
-Multiple Linear Regression		
+    - Model	RMSE	R² Score
+
+    - Simple Linear Regression		
+
+    - Multiple Linear Regression
+
+		
 📚 What I Learned
-Data preprocessing techniques
+    - Data preprocessing techniques
 
-How to train regression models
+    - How to train regression models
 
-Model evaluation metrics
+    - Model evaluation metrics
 
-Feature importance analysis
+#Feature importance analysis
 
 👨‍💻 Author
-Your Name - GitHub Profile
+    ayushbora2003
 
 📝 License
 This project is open source.
